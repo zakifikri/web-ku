@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.jumbotron{
+    background-image: url("img/back.jpg");
+    background-size: cover;
+    height: 700px;
+    
+}
+
+
+.my-profile{
+    margin-top: -300px;
+
+}
+
+.profile-ku2{
+    background-color: whitesmoke;
+    padding: 50px 40px;
+}
+
+.profile-ku{
+    color: #182153;
+    background-color: whitesmoke;
+    padding: 20px 180px;
+    /* padding-left: 170px !important; */
+    /* width: 470px !important;
+    height: 470px !important; */
+}
+
+footer{
+    width: 100%;
+    background-color: cyan;
+    height: 52px;
+}
+
+#foot{
+    position: relative;
+    top: 12px;
+    margin-left: 20px;
+    
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+.nav-link{
+    color: white !important;
+    font-weight: 700 !important;
+    transition: color 7.5ms;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link:hover{
+    color: black !important;
+    background-color: skyblue;
+    border-radius: 16px;
+}
+
+    .nav-link{
+        color: white !important;
+        font-weight: 700 !important;
+        transition: color 7.5ms;
+        position: relative;
+        z-index: 1;
+    }
+
+    .jumbotron{
+        background-image: url("img/back.jpg");
+        background-size: cover;
+        height: 700px;
+        position: relative;
+        margin-top: -70px;
+    }
+
+    .jumbotron::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 0;
+        
+    }
+
+    
+    h3{
+        font-weight: 200;
+        color: #182153 !important;
+    }
+
+    .quotes{
+        font-size: 18px;
+    }
+
+
+
+}
